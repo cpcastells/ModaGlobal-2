@@ -5,3 +5,11 @@ function afegirContacte(nom) {
   }
   console.log("Contacte afegit:", nom);
 }
+
+function validarContacte(nom) {
+  if (!nom) {
+    console.log("Contacte buit, no s'afegeix");
+    return false;
+  }
+  return true;
+}
